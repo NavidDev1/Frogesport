@@ -10,30 +10,36 @@
 </head>
 <body>
  
-<header>
-  <h1 id="Question">
-    Frågesportsspelet
-  </h1>
-</header>
+  <header>
+    <h1 id="header">
+      Frågesportsspelet
+    </h1>
+  </header>
 
-<div id="container">
+  <div id="container">
 
-  <div id="boxOne">
-    <div id="pictureDiv">
-      <img src="sant-falskt.png" alt="sant-falskt" width="300px" height="200px" id="pictureBox">
+    <div id="boxOne">
+      <div id="pictureDiv">
+        <img src="sant-falskt.png" alt="sant-falskt" width="300px" height="200px" id="pictureBox">
+      </div>
+    </div>
+    <div id="boxTwo">
+      <div id="questDiv">
+
+        <button id="startBtn">Starta Spelet</button>
+      </div>
+    </div>
+    <div id="buttonDiv">
+      <p id="question">Fråga</p>
+      <button id="yesBtn" onclick="javascript:answer(true)">Sant!</button>
+      <button id="noBtn" onclick="javascript:answer(false)">Falskt!</button>
+    </div>
+    <div id="">
+      <button id="task0" onclick="javascript:selectTask(0)">1</button>
+      <button id="task1" onclick="javascript:selectTask(1)">2</button>
+      <button id="task2" onclick="javascript:selectTask(2)">3</button>
     </div>
   </div>
-  <div id="boxTwo">
-    <div id="questDiv">
-
-      <button id="startaBtn">Starta Spelet</button>
-    </div>
-  </div>
-  <div id="ButtonDiv">
-    <button id="yesBtn">Sant!</button>
-    <button id="noBtn">Falskt!</button>
-  </div>
-</div>
   
 
   
