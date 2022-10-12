@@ -38,3 +38,11 @@ header{
   margin: 20px;
   display: none;
 }
+
+#question {
+  display: none;
+}
+
+#taskbox {
+  display: none;
+}

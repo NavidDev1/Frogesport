@@ -5,6 +5,7 @@ const pictureBox = document.querySelector('#pictureBox');
 const pictureDiv = document.querySelector('#pictureDiv');
 const question = document.querySelector('#question');
 const header = document.querySelector('#header');
+const taskbox = document.querySelector('#taskbox')
 
 startBtn.addEventListener("click", login);
 console.log(startBtn)
@@ -12,8 +13,9 @@ function login() {
     startBtn.style.display = "none";
     yesBtn.style.display = "block";
     noBtn.style.display = "block";
-    question.innerHTML = "Fråga 1?";
     pictureBox.setAttribute("src","/paris.jpg");
+    taskbox.style.display = "block";
+    question.style.display = "block";
   };
 
 /* när man kommer in på sidan vill vi se start knappem
@@ -68,4 +70,21 @@ function answer(value){
   
 }
 
+ 
 selectTask(0);
+
+
+imgArray[0] = new Image();
+imgArray[0].src = './paris.jpg';
+
+imgArray[1] = new Image();
+imgArray[1].src = './Zlatan.jpg';
+
+imgArray[2] = new Image();
+imgArray[2].src = './rem.png';
+
+startBtn.addEventListener("click", login);
+console.log(startBtn)
+function image() {
+
+  };
